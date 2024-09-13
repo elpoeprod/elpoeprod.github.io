@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "CascadiaMono";
+    src: url("CascadiaMono-Light.otf");
+}
+
+body {
+    background: #222222;
+    margin: 0;
+    font-family: CascadiaMono;
+	
+}
+h1 {
+    font-family: CascadiaMono; 
+    font-size: 36px;
+    color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+	font-family: CascadiaMono; 
+    font-size: 24px;
+	color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+h3 {
+	font-family: CascadiaMono; 
+    /*font-size: 24px;*/
+	color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+p {color: #FFFFFF;/*padding-left: 10px;*/}
+
+old {
+	color: #C0C0C0;
+}
+
+li {color: #FFFFFF;}
+
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blur { 
+	filter: brightness(0.2) blur(5px);
+	}
+
+.outliner {
+	/* color: white; 
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; */
+	filter: drop-shadow(0px 0px 20px #000000);
+	}
+
+.assets {
+	width: 250px;
+	height: 200px;
+	position: fixed;
+	text-align: left;
+	background: #303030;
+	border: solid 1px white;
+	float: left;
+	margin-top: 10%;
+	/*filter: blur(5px);*/
+		
+}
+
+.asset {
+	position: relative; /*heyo*/
+	width: 250px;
+	border: solid 2px white;
+	background: #303030;
+	filter: drop-shadow(0px 0px 20px black);
+	text-align: left;
+	float: left;
+	margin-left: 12px;
+	margin-top: 20px;
+	left: 250px;
+}
+
+psmall {
+	color: #FFFFFF;
+	font-size: 14px;
+	/*padding-left: 15px;*/
+}
+
+a:link {color: white;text-decoration: none;}
+a:visited {color: #C0C0C0;text-decoration: none;}

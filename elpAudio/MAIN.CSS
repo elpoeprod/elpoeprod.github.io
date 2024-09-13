@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "CascadiaMono";
+    src: url("CascadiaMono-Light.otf");
+}
+
+body {
+    background: #222222;
+    margin: 0;
+    font-family: CascadiaMono;
+	
+}
+h1 {
+    font-family: CascadiaMono; 
+    font-size: 36px;
+    color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+	font-family: CascadiaMono; 
+    font-size: 24px;
+	color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+p {color: #FFFFFF;}
+
+old {
+	color: #C0C0C0;
+}
+
+li {color: #FFFFFF;}
+
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blur { 
+	filter: brightness(0.2) blur(5px);
+	}
+
+.outliner {
+	/* color: white; 
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; */
+	filter: drop-shadow(0px 0px 10px #000000);
+	}
+
+a:link {color: white;text-decoration: none;}
+a:visited {color: #C0C0C0;text-decoration: none;}
+acronym {text-decoration: none;}
+
+hr {color: white; filter: blur(7px);}
