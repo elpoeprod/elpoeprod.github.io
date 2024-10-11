@@ -33,7 +33,7 @@ h3 {
     text-align: center;
 }
 
-p {color: #FFFFFF;/*padding-left: 10px;*/}
+p {color: #FFFFFF;}
 
 old {
 	color: #C0C0C0;
@@ -84,6 +84,7 @@ li {color: #FFFFFF;}
 .asset {
 	position: relative; /*heyo*/
 	width: 250px;
+	height:350px;
 	border: solid 2px white;
 	background: #303030;
 	filter: drop-shadow(0px 0px 20px black);
@@ -94,10 +95,20 @@ li {color: #FFFFFF;}
 	left: 250px;
 }
 
-psmall {
+p.small {
 	color: #FFFFFF;
 	font-size: 14px;
 	/*padding-left: 15px;*/
+}
+
+p.myself {
+	position: absolute;
+	top:60%;
+}
+
+p.smyself {
+	position: absolute;
+	top:70%;
 }
 
 a:link {color: white;text-decoration: none;}
