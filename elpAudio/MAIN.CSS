@@ -26,6 +26,112 @@ h2 {
 }
 
 p {color: #FFFFFF;}
+#main {
+  color: #fff;
+  background: #454545;
+  margin: 0;
+  padding: 1.2em;
+  width: auto;
+  min-height: 600px;
+}
+
+table#menu {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  height: 2em;
+  line-height: 2em;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  /*
+  border-top: solid 1px #777;
+  border-bottom: solid 1px #777;
+  */
+}
+
+table#menu tr {
+  height: 100%;
+  line-height: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+table#menu td {
+  width: 12.5%;
+  padding: 0;
+  margin: 0;
+  border-left: solid 1px #777;
+  border-right: none;
+  border-bottom: solid 1px #777;
+  background-color: #454545;
+}
+
+table#menu td:first-child {
+  border-left: none;
+}
+
+table#menu a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  line-height: 2em;
+  height: 100%;
+  color: #fff;
+}
+
+table#menu td:hover,
+table#menu td a:hover {
+  color: #444;
+  background-color: #fff;
+}
+
+table#menu td:active,
+table#menu td a:active {
+  background-color: #aaa;
+  color: #fff;
+  /*border: none;*/
+}
+
+table#menu td#active {
+  font-weight: bold;
+  color: #fff;
+  background-color: #555;
+  border-bottom: solid 1px #fff;
+}
+
+div.padding > h1:first-child,
+div.padding > h2:first-child,
+div.padding > h3:first-child {
+  margin-top: 0;
+}
+
+.padding h1, h2, h3
+{
+    margin-top: 0.6em;    
+}
+div#gallery table 
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  vertical-align: bottom;
+  border: solid 1px #fff;
+}
+
+div#gallery td {
+  vertical-align: bottom;
+  padding: 1.5em 0.3em 0.3em 0.3em;
+  border-right: dotted 1px #777;
+  border-bottom: dotted 1px #777;
+  color: #fff;
+}
 
 old {
 	color: #C0C0C0;
@@ -60,8 +166,12 @@ li {color: #FFFFFF;}
 	filter: drop-shadow(0px 0px 10px #000000);
 	}
 
-a:link {color: white;text-decoration: none;}
-a:visited {color: #C0C0C0;text-decoration: none;}
+a:link {color: #aaa;text-decoration: none;}
+a:visited {color: #c0c0c0;text-decoration: none;}
 acronym {text-decoration: none;}
 
 hr {color: white; filter: blur(7px);}
+
+td.background {
+	filter: brightness(0.2) blur(5px);
+}
