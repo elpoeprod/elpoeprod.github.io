@@ -9,21 +9,6 @@ body {
     font-family: CascadiaMono;
 	
 }
-h1 {
-    font-family: CascadiaMono; 
-    font-size: 36px;
-    color: #FFFFFF;
-	padding: 0.5rem;
-    text-align: center;
-}
-
-h2 {
-	font-family: CascadiaMono; 
-    font-size: 24px;
-	color: #FFFFFF;
-	padding: 0.5rem;
-    text-align: center;
-}
 
 p {color: #FFFFFF;}
 #main {
@@ -95,6 +80,8 @@ table#menu td a:active {
   color: #fff;
   /*border: none;*/
 }
+
+.whitetxt {color: #FFF;}
 
 table#menu td#active {
   /*font-weight: bold;*/
@@ -200,4 +187,28 @@ td.background {
 
 .border {
   border: 1px solid #777;
+}
+
+h1 {
+    font-family: CascadiaMono; 
+    font-size: 36px;
+    color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+	font-family: CascadiaMono; 
+    font-size: 24px;
+	color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
+}
+
+h3 {
+	font-family: CascadiaMono; 
+    font-size: 18px;
+	color: #FFFFFF;
+	padding: 0.5rem;
+    text-align: center;
 }
