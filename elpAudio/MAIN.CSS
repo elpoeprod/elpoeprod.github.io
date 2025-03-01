@@ -97,7 +97,7 @@ table#menu td a:active {
 }
 
 table#menu td#active {
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: #fff;
   background-color: #555;
   border-bottom: solid 1px #fff;
@@ -174,4 +174,30 @@ hr {color: white; filter: blur(7px);}
 
 td.background {
 	filter: brightness(0.2) blur(5px);
+}
+
+.color {
+  color: #000;
+  background: #fff;
+}
+.margin {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.size {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  min-width: 850px;
+  max-width: 1200px;
+}
+
+.content {
+  min-height: 400px;
+  margin-top: 0;
+}
+
+.border {
+  border: 1px solid #777;
 }
