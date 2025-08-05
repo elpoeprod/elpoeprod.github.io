@@ -1,0 +1,24 @@
+#define GB_USE_SMALL_FUNCNAMES
+#include <gamebreaker/gamebreaker.hpp>
+namespace gb=GameBreaker;
+
+void obj_draw() {
+	draw::color_rgb(255,255,255);
+	draw::text_rt(10,10,"Hello, world!");
+}
+
+int main() {
+	gb::init(GB_WINPOS_CENTER,GB_WINPOS_CENTER,640,480,"Hello, world");
+	var myfont=font::add("myfont.ttf",48);
+	draw::set_font(myfont);
+	var obj=object::add(nullptr,nullptr);
+	obj->event_draw=obj_draw;
+	
+	var myroom=room::add(640,480);
+	room::camera_setup(myroom,0,1,(GB_CamSetup){0,0,640,480,0},(GB_CamSetup){0,0,640,480,0},-1,(GB_CamTarget){0,0,0,0});
+	room::add_instance(myroom,obj,0,0,nullptr);
+	room::current(myroom);
+	
+	gb::run();
+	gb::shutdown();
+}
