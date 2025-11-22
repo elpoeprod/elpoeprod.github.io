@@ -4,16 +4,17 @@
 }
 
 body {
-    background: #222222;
+    background: #242424;
     margin: 0;
     font-family: flor;
 	
 }
 
 p {color: #FFFFFF;}
+
 #main {
   color: #fff;
-  background: #454545;
+  background: #141414;
   margin: 0;
   padding: 1.2em;
   width: auto;
@@ -51,7 +52,7 @@ table#menu td {
   border-left: solid 1px #777;
   border-right: none;
   border-bottom: solid 1px #777;
-  background-color: #454545;
+  background-color: #0A0A0A;
 }
 
 table#menu td:first-child {
@@ -110,6 +111,7 @@ div#gallery table
   text-align: center;
   vertical-align: bottom;
   border: solid 1px #fff;
+    background: #141414;
 }
 
 div#gallery td {
@@ -130,6 +132,7 @@ li {color: #FFFFFF;}
   position: relative;
   text-align: center;
   color: white;
+  background: #141414;
 }
 
 .centered {
@@ -159,9 +162,9 @@ acronym {text-decoration: none;}
 
 hr {color: white; filter: blur(7px);}
 
-td.background {
+/*td.background {
 	filter: brightness(0.2) blur(5px);
-}
+}*/
 
 .color {
   color: #000;
