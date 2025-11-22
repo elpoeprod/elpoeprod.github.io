@@ -111,6 +111,7 @@ div#gallery table
   text-align: center;
   vertical-align: bottom;
   border: solid 1px #fff;
+  background: #141414;
 }
 
 div#gallery td {
